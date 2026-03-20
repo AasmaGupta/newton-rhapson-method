@@ -1,0 +1,714 @@
+{
+ "geoms": {
+ "geom1_line_main": {
+ "geom": "line",
+"classed": "geom1_line_main",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#000000" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom2_hline_main": {
+ "geom": "hline",
+"classed": "geom2_hline_main",
+"aes": {
+ "yintercept": "yintercept" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F" 
+},
+"types": {
+ "yintercept": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom3_segment_main": {
+ "geom": "segment",
+"classed": "geom3_segment_main",
+"aes": {
+ "x": "x",
+"y": "y",
+"xend": "xend",
+"yend": "yend",
+"colour": "type",
+"showSelected1": "type" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"alpha":      0.2,
+"showSelected": "type",
+"help_showSelected": "type" 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"showSelected1": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom4_segment_main": {
+ "geom": "segment",
+"classed": "geom4_segment_main",
+"aes": {
+ "x": "x",
+"y": "y",
+"xend": "xend",
+"yend": "yend",
+"colour": "type",
+"showSelected1": "iteration",
+"showSelected2": "type" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"size":      1.2,
+"showSelected": [ "iteration", "type" ],
+"help_showSelected": [ "iteration", "type" ] 
+},
+"types": {
+ "colour": "rgb",
+"x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"showSelected1": "integer",
+"showSelected2": "character",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom5_point_main": {
+ "geom": "point",
+"classed": "geom5_point_main",
+"aes": {
+ "x": "x",
+"y": "y" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        2,
+"alpha":      0.4 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom6_point_main": {
+ "geom": "point",
+"classed": "geom6_point_main",
+"aes": {
+ "x": "x",
+"y": "y",
+"clickSelects": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        4,
+"clickSelects": "iteration",
+"help_clickSelects": "iteration" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"clickSelects": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom7_text_main": {
+ "geom": "text",
+"classed": "geom7_text_main",
+"aes": {
+ "x": "x",
+"y": "y",
+"label": "label",
+"key": "iteration",
+"showSelected1": "iteration" 
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"size":       10,
+"showSelected": "iteration",
+"help_showSelected": "iteration",
+"anchor": "start" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "integer",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom8_line_convergence": {
+ "geom": "line",
+"classed": "geom8_line_convergence",
+"aes": {
+ "x": "iteration",
+"y": "value" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        1 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom9_tallrect_convergence": {
+ "geom": "tallrect",
+"classed": "geom9_tallrect_convergence",
+"aes": {
+ "xmin": "iteration - 0.5",
+"xmax": "iteration + 0.5",
+"clickSelects": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.2,
+"clickSelects": "iteration",
+"help_clickSelects": "iteration" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom10_point_convergence": {
+ "geom": "point",
+"classed": "geom10_point_convergence",
+"aes": {
+ "x": "iteration",
+"y": "value",
+"showSelected1": "iteration" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"size":        3,
+"showSelected": "iteration",
+"help_showSelected": "iteration" 
+},
+"types": {
+ "y": "numeric",
+"x": "numeric",
+"showSelected1": "integer",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "iteration",
+"ms":     1200,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ] 
+},
+"selectors": {
+ "type": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "vertical", "tangent" ],
+"levels": [ "vertical", "tangent" ],
+"update": [
+ "geom3_segment_main",
+"geom4_segment_main" 
+] 
+},
+"iteration": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"clickSelects": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20" ],
+"update": [
+ "geom4_segment_main",
+"geom6_point_main",
+"geom7_text_main",
+"geom9_tallrect_convergence",
+"geom10_point_convergence" 
+] 
+} 
+},
+"plots": {
+ "main": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "type": {
+ "guide": "legend",
+"geoms": [ "path", "path" ],
+"title": "type",
+"class": "type",
+"selector": "type",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#FF0000",
+"pathsize":      1.2,
+"pathlinetype":        1,
+"pathalpha":      0.2,
+"label": "tangent" 
+},
+{
+ "pathcolour": "#0000FF",
+"pathsize":      1.2,
+"pathlinetype":        1,
+"pathalpha":      0.2,
+"label": "vertical" 
+} 
+] 
+} 
+},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      -10,
+      -5,
+       0,
+       5 
+] 
+],
+"y": [
+ [
+    -1000,
+    -500,
+       0,
+     500,
+    1000 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      -10,
+    -7.5,
+      -5,
+    -2.5,
+       0,
+     2.5,
+       5,
+     7.5 
+] 
+],
+"y": [
+ [
+    -1000,
+    -750,
+    -500,
+    -250,
+       0,
+     250,
+     500,
+     750,
+    1000 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      -10,
+      -5,
+       0,
+       5 
+],
+"xlab": [
+ "-10",
+"-5",
+"0",
+"5" 
+],
+"xrange": [ -10.46553,  8.54119 ],
+"xline": false,
+"xticks": true,
+"y": [
+    -1000,
+    -500,
+       0,
+     500,
+    1000 
+],
+"ylab": [
+ "-1000",
+"-500",
+"0",
+"500",
+"1000" 
+],
+"yrange": [    -1100,     1100 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "x",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "f(x)",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "-10",
+"-5",
+"0",
+"5" 
+],
+"ylabs": [
+ "-1000",
+"-500",
+"0",
+"500",
+"1000" 
+],
+"title": " Newton-Raphson for: f(x) = 4x³ - 6x² - 30x + 80",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_line_main",
+"geom2_hline_main",
+"geom3_segment_main",
+"geom4_segment_main",
+"geom5_point_main",
+"geom6_point_main",
+"geom7_text_main" 
+] 
+},
+"convergence": {
+ "panel_margin_lines":     0.27,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+       5,
+      10,
+      15,
+      20 
+] 
+],
+"y": [
+ [
+        1,
+       2,
+       3 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        0,
+     2.5,
+       5,
+     7.5,
+      10,
+    12.5,
+      15,
+    17.5,
+      20 
+] 
+],
+"y": [
+ [
+        1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        0,
+       5,
+      10,
+      15,
+      20 
+],
+"xlab": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"xrange": [     -0.5,     21.5 ],
+"xline": false,
+"xticks": true,
+"y": [
+        1,
+       2,
+       3 
+],
+"ylab": [
+ "10",
+"100",
+"1000" 
+],
+"yrange": [ 0.6939806,  3.70823 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": " Number of Iterations",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "|f(x)|",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "0",
+"5",
+"10",
+"15",
+"20" 
+],
+"ylabs": [
+ "10",
+"100",
+"1000" 
+],
+"title": "|f(x)| vs Iteration (log scale)",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom8_line_convergence",
+"geom9_tallrect_convergence",
+"geom10_point_convergence" 
+] 
+} 
+} 
+}
