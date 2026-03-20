@@ -1,4 +1,4 @@
-# Newton-Raphson Method [Medium-Hard Task]
+# Newton-Raphson Method [Medium Task]
 
 This is an interactive visualization of the Newton-Raphson method built using the `animint2` package in R.
 
