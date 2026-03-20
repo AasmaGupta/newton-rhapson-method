@@ -51,6 +51,12 @@ I wanted to:
 
 ---
 
+## Live demo
+
+https://aasmagupta.github.io/newton-rhapson-method/
+
+---
+
 ## Run locally
 
 ```r
